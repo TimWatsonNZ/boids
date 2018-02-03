@@ -1,0 +1,62 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <div>
+      <div id='root' style='width:500px;float:left'></div>
+      <div style='width:500px;float:left'>
+        <div>
+         <label>
+           Number:
+         </label>
+         <input type="text" id="boidNumber" />
+        </div>
+
+        <div>
+          <label>
+            Speed:
+          </label>
+          <input type="text" id="boidSpeed" />
+        </div>
+
+        <div>
+          <label>
+            Collision radius:
+          </label>
+          <input type="text" id="collisionRadius" />
+        </div>
+
+        <div>
+          <label>
+            Vision radius:
+          </label>
+          <input type="text" id="visionRadius" />
+        </div>
+        
+        <div>
+          <label>
+            Repulsion Strength:
+          </label>
+          <input type="text" id="repulsionStrength" />
+        </div>
+
+        <div>
+          <label>
+            Heading Strength:
+          </label>
+          <input type="text" id="headingStrength" />
+        </div>
+
+        <div>
+          <label>
+            Cohesion Strength:
+          </label>
+          <input type="text" id="cohesionStrength" />
+        </div>
+        
+        <button id="start" onclick="start()">Start</button>
+      </div>
+    </div>
+    <script src='./boids.js'></script>
+  </body>
+</html>
